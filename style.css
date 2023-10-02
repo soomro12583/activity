@@ -92,3 +92,29 @@ border: none;
     height: 99vh;
 
 }
+
+@media screen and (min-width: 315px) and (max-width: 546px){
+
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    
+    }
+
+    .left{
+        display: flex;
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .right> img{
+        width: 300px;
+        height: 300px;
+    }
+
+}
