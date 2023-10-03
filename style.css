@@ -29,7 +29,7 @@ display: flex;
 width: 100%;
 color: #000;
 font-family: Roboto;
-font-size: 12px;
+font-size: 22px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
@@ -50,7 +50,7 @@ display: flex;
 .heading > p{
 color: #000;
 font-family: Roboto;
-font-size: 1rem;
+font-size: 2rem;
 font-style: normal;
 font-weight: 700;
 }
@@ -58,12 +58,13 @@ font-weight: 700;
 .shoper{
     display: flex;
     padding: 0;
+    
 }
 
 .shoper > p{
 color: var(--cold-grey-40, #9A9EA5);
 font-family: Roboto;
-font-size: 0.4rem;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 }
@@ -74,9 +75,9 @@ font-weight: 400;
 }
 .btn-primary{ 
 display: flex;
-width: 100px;
-height: 25px;
-font-size: 0.6rem;
+width: 160px;
+height: 45px;
+font-size:;
 padding:  2px;
 justify-content: center;
 align-items: center;
