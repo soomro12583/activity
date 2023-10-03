@@ -195,10 +195,19 @@ border: none;
 @media screen and (min-width: 300px) and (max-width: 404px){
 
     .main{
+        margin-top: 0;
+        padding-top: 0;
         gap: 1rem;
-        padding-top: 1rem;
     }
 
+    .right{
+        display: flex;
+        justify-content: center;
+    }
+
+    .left{
+      gap: 10px;
+    }
     .shoper > p{
         font-size: 0.5rem;
     }
